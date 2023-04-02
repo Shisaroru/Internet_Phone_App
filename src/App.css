@@ -50,3 +50,47 @@
   border: none;
   cursor: pointer;
 }
+
+#hang-up {
+  width: 200px;
+  background-color: #bf3232;
+  font-size: 1.5em;
+  padding: 5px 10px;
+  border-radius: 200px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+#hang-up:hover {
+  background-color: #e33939;
+}
+
+#call-in-progress-keypad {
+  display: flex;
+  align-content: center;
+  padding: 10px;
+  gap: 1.3em;
+  justify-content: space-around;
+  place-items: center;
+  margin: 100px 20px;
+}
+
+.btn-container-opacity {
+  opacity: 0.6;
+}
+
+.btn-container > button {
+  display: flex;
+  place-items: center;
+  background-color: transparent;
+  font-size: 1.6em;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid white;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-container > button:hover {
+  background-color: #9c33d4;
+}
